@@ -33,8 +33,12 @@ if ( is_singular() ) {
 		get_template_part( 'template-parts/404' );
 	}
 }
+?>
 
+<?php
 the_content();
 
+?>
 
+<?php
 get_footer();
