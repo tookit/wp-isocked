@@ -18,11 +18,11 @@ jobs:
         REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
         REMOTE_USER: ${{ secrets.REMOTE_USER }}
         TARGET: "${{ secrets.REMOTE_TARGET }}"
-        EXCLUDE: "/dist/, /node_modules/, .git/"
+        EXCLUDE: "/dist/, /node_modules/, .git/, local_ssh*"
         SCRIPT_BEFORE: |
           whoami
           ls -al
         SCRIPT_AFTER: |
-          sudo  rsync -rtuv ~/shiftcode /home/wwwroot/www.shiftcoder.com/wp-content/themes 
+          sudo  rsync -rtuv ~/shiftcoder /home/wwwroot/www.shiftcoder.com/wp-content/themes 
           sudo chown -R www:www /home/wwwroot/www.shiftcoder.com/wp-content/themes/shiftcoder
           whoami
