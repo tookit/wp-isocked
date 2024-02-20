@@ -1,0 +1,28 @@
+{
+	"name": "Fiber",
+	"version": "1.1.0",
+	"description": "Optico",
+	"author": "wangqiangshen@gmail.com",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Theme"
+	],
+	"bugs": {
+		"url": "https://core.trac.wordpress.org/"
+	},
+	"homepage": "https://www.opticolab.com",
+	"devDependencies": {
+		"autoprefixer": "^10.2.6",
+		"chokidar-cli": "^2.1.0",
+		"eslint": "^6.6.0",
+		"npm-run-all": "^1.7.0",
+		"sass": "^1.63.6"
+	},
+	"scripts": {
+		"start": "chokidar \"**/*.scss\" -c \"npm run build\" --initial",
+		"build:style": "sass assets/scss/style.scss:style.css --style=expanded --source-map",
+		"build": "run-s \"build:*\"",
+		"watch": "chokidar \"scss/*.scss\" -c \"npm run build\" --initial"
+	}
+}

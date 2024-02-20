@@ -1,0 +1,26 @@
+/*
+Theme Name: Fiber
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: opticolab.com
+Requires at least: 5.3
+Tested up to: 5.8
+Requires PHP: 5.6
+Version: 1.0
+
+*/
+
+
+/**********************
+01.General
+
+***********************/
+
+
+@import "variables";
+@import "general";
+@import "helper";
+@import "components";
+@import "elementor";
+
+
