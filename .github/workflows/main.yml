@@ -23,6 +23,6 @@ jobs:
           whoami
           ls -al
         SCRIPT_AFTER: |
-          sudo  rsync -rtuv ~/fiber /home/wwwroot/www.shiftcoder.com/wp-content/themes 
+          sudo  rsync -rtuv ~/shiftcode /home/wwwroot/www.shiftcoder.com/wp-content/themes 
           sudo chown -R www:www /home/wwwroot/www.shiftcoder.com/wp-content/themes/shiftcoder
           whoami
