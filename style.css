@@ -1,11 +1,67 @@
-@charset "UTF-8";
 /*
 Theme Name: Shiftcoder
 Author: the WordPress team
 Author URI: https://wordpress.org/
-Description: shiftcoder.com
+Description: opticolab.com
 Requires at least: 5.3
 Tested up to: 5.8
 Requires PHP: 5.6
 Version: 1.0
-Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+*/
+/**********************
+01.General
+
+***********************/
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: normal;
+  color: var(--e-global-color-text, #161C2D);
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.4em;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.4em;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+h1, h2, h3, h4, h5, h6 > b {
+  color: var(--e-global-color-accent, #4F46E5);
+}
+
+/*# sourceMappingURL=style.css.map */

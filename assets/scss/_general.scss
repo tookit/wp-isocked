@@ -1,0 +1,55 @@
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: $font-primary;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    color: $font-color;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+
+    font-size: 4rem; // 64px
+    font-weight: 900;
+    line-height: 1.4em;
+}
+
+h2 {
+    font-size: 3rem; // 48px
+    font-weight: 800;
+    line-height: 1.4em;
+}
+
+h3 {
+    font-size: 2.5rem; // 36px
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+h4 {
+    font-size: 2rem; // 32px
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+h5 {
+    font-size: 1.5rem; // 24px
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+h1, h2, h3, h4, h5, h6 > b{
+
+    color: $primary-color;
+}

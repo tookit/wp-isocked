@@ -1,7 +1,7 @@
 {
 	"name": "Shiftcoder",
 	"version": "1.1.0",
-	"description": "Optico",
+	"description": "Shiftcoder",
 	"author": "wangqiangshen@gmail.com",
 	"license": "GPL-2.0-or-later",
 	"keywords": [
@@ -11,7 +11,7 @@
 	"bugs": {
 		"url": "https://core.trac.wordpress.org/"
 	},
-	"homepage": "https://www.opticolab.com",
+	"homepage": "https://www.shiftcoder.com",
 	"devDependencies": {
 		"autoprefixer": "^10.2.6",
 		"chokidar-cli": "^2.1.0",

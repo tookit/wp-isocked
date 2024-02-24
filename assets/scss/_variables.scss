@@ -43,8 +43,12 @@
 
 // $body-bg:             #ffffff;
 
+$primary-color:     var(--e-global-color-accent, #4F46E5);
+
 // // Font
-// $font-primary:        'Open Sans', Helvetica, Arial, sans-serif;
-// $font-secondary:      'Open Sans', Helvetica, Arial, sans-serif;
+$font-color:        var(--e-global-color-text, #161C2D);
+$font-base:           16px;
+$font-primary:        'Nunito', Helvetica, Arial, sans-serif;
+$font-secondary:      'Nunito', Helvetica, Arial, sans-serif;
 
 
