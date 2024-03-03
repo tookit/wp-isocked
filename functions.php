@@ -42,7 +42,7 @@ function custom_add_google_tag_manager_head()
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-N85L3S3X');
+        })(window, document, 'script', 'dataLayer', 'G-FLR4YV8D0M');
     </script>
 
 <?php
@@ -54,7 +54,7 @@ function custom_google_tag_manager_no_js()
 ?>
     <!-- Google Tag Manager (noscript)-->
     <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N85L3S3X" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=G-FLR4YV8D0M" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 <?php
