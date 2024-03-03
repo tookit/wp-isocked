@@ -23,6 +23,6 @@ jobs:
           whoami
           ls -al
         SCRIPT_AFTER: |
-          sudo  rsync -rtuv ~/shiftcoder /home/wwwroot/www.shiftcoder.com/wp-content/themes 
-          sudo chown -R www:www /home/wwwroot/www.shiftcoder.com/wp-content/themes/shiftcoder
+          sudo  rsync -rtuv ~/isocked /home/wwwroot/www.isocked.com/wp-content/themes 
+          sudo chown -R www:www /home/wwwroot/www.isocked.com/wp-content/themes/isocked
           whoami
