@@ -40,7 +40,7 @@ function enqueue_gdpr_consent_banner() {
     if (is_eea_visitor()) {
         wp_enqueue_script(
             'gdpr-consent-banner', 
-            get_template_directory_uri() . '/js/consent-banner.js', 
+            get_template_directory_uri() . '/assets/js/consent-banner.js', 
             array('jquery'), 
             '1.0.2', 
             true
@@ -48,7 +48,7 @@ function enqueue_gdpr_consent_banner() {
         
         wp_enqueue_style(
             'gdpr-consent-banner', 
-            get_template_directory_uri() . '/css/consent-banner.css', 
+            get_template_directory_uri() . '/assets/css/consent-banner.css', 
             array(), 
             '1.0.2'
         );
